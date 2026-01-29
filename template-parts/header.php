@@ -33,7 +33,7 @@ include("init/main-functions.php");
 <body>
 
 	<header>
-    <img src="https://dummyimage.com/500x200/000/fff" alt="Logo">
+    <a href="<?php echo $base_url; ?>"><img src="https://dummyimage.com/500x200/000/fff" alt="Logo"></a>
 
 
 
@@ -46,7 +46,6 @@ include("init/main-functions.php");
 
       <div class="collapse navbar-collapse" id="navMenu">
         <ul class="navbar-nav ms-auto align-items-lg-center">
-          <li class="nav-item"><a class="nav-link" href="<?php echo $base_url; ?>">Home</a></li>
           <li class="nav-item"><a class="nav-link" href="<?php echo $base_url; ?>/blog.php">Blog</a></li>
 
 

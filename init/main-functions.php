@@ -792,6 +792,7 @@ if( isset( $_POST['action'] ) && $_POST['action'] == "entry" ){
         looking_for_retail,
         looking_for_industrial
 
+        posted_by_id,
         datetimeinserted
       ) 
       VALUES 
@@ -808,6 +809,7 @@ if( isset( $_POST['action'] ) && $_POST['action'] == "entry" ){
         '$looking_for_retail',
         '$looking_for_industrial'
 
+        '$user_id',
         '$current_time'
       ) 
       ";
